@@ -1,0 +1,19 @@
+{
+  "author": "Craig DeGruchy <cdegruchy@logitech.com>",
+  "name": "foo",
+  "description": "Package containing foo components",
+  "version": "99.99.99",
+  "repository": {
+    "type": "git",
+    "url": "ssh://cdegruchy@gerrit.logitech.com:29418/dhg/server/foo"
+  },
+  "engines": {
+    "node": "v0.4.12"
+  },
+  "bin": {
+    "foo": "./foo.js"
+  },
+  "dependencies": {
+    "express": "3.x"
+  }
+}
